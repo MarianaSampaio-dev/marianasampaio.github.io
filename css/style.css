@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+
+} /* com esse asterisco, a regra informa que quer aplicar a regra para todas as tags possiveis*/
+
+
+
+html,body{
+  height: 100%;
+}
+
+
+body{
+  background-color:#835cc6;
+  color: wheat;
+  font-family:   "Raleway", sans-serif;
+}
+.avatar{
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 20px white;
+  margin-bottom: 10px;
+}
+h1{
+  font-family: "Architects Daughter", cursive;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+h2{
+  font-size: 16px; /*o font size serve para o tamanho da letra*/
+  margin-bottom: 11px;
+
+}
+.profile{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  /*o justify-content só funciona quando há um display flex*/
+  list-style: none;
+  margin: 20px 0;
+
+
+}
+.social img{
+  width: 33px;
+  margin-right: 10px;
+}
+.logo{
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+
+.links-list li{
+  margin: 10px 200px;
+  list-style: none;
+
+}
+.links-list li a{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  display: block; /*deixa os elementos na mesma linha*/
+  border-radius: 4px;
+  text-decoration: none; /*serve para tirar a linha debaixo do link*/
+  color: #835cc6;
+  box-shadow: 0 0 20px black;
+  font-weight: bold;
+}
+.links-list li a span{
+  color: black;
+  display: block;
+  margin-top: 10px;
+}
+
